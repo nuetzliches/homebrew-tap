@@ -2,27 +2,27 @@ class Composit < Formula
   desc "Governance-as-Code for AI-generated infrastructure"
   homepage "https://nuetzliches.github.io/composit"
   license "MIT"
-  version "0.3.1"
+  version "0.3.2"
 
   on_macos do
     on_arm do
       url "https://github.com/nuetzliches/composit/releases/download/v#{version}/composit-aarch64-apple-darwin.tar.gz"
-      sha256 "ab5b8b3846220c0f40c7d3366345f7ab258cc2cc4492fe6508258e8c0ac15c5f"
+      sha256 "3cb7b402ecc309b674c3160d8d5d973c0e2472ba8f566fbb4cdb9e468671892c"
     end
     on_intel do
       url "https://github.com/nuetzliches/composit/releases/download/v#{version}/composit-x86_64-apple-darwin.tar.gz"
-      sha256 "04c58ab6b01c69702006e96c66e64adcd44cc2e151431f174c53ed20d11b6eaa"
+      sha256 "41f4680d49ea7aec239395f3519e58fec6cd29cc44e7230532d3d454d52e66a6"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/nuetzliches/composit/releases/download/v#{version}/composit-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "31f826491b22710c8777132690a6a0acb2f83390a63b8e0792df9879a41296a4"
+      sha256 "0f1641872bdc883bfe3fcda87fb8517286647337db1bd4df0f0f3d74e38f2f48"
     end
     on_intel do
       url "https://github.com/nuetzliches/composit/releases/download/v#{version}/composit-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "17d73d0f08bfa98b2b5feee190a22e76c78142a22c32bdb27028b9a350f89480"
+      sha256 "a337a98031e9b489795710fcea1134f87e4aec76aff7bf5c7c0cc6ff0d71ce3d"
     end
   end
 
