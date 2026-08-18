@@ -11,28 +11,28 @@
 class Croniq < Formula
   desc "Distributed job scheduler with cron, calendar, and runner support"
   homepage "https://github.com/nuetzliches/croniq"
-  version "0.32.0"
+  version "0.33.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/nuetzliches/croniq/releases/download/v#{version}/croniq-aarch64-apple-darwin.tar.gz"
-      sha256 "9c4b42aa66c92968123e81a543da533c125cd66219577db54041235bb7193861"
+      sha256 "f76aeff43069d0f9e8970e89d91e0014002d6fb23dc1df802f5ae4b21663966b"
     end
     on_intel do
       url "https://github.com/nuetzliches/croniq/releases/download/v#{version}/croniq-x86_64-apple-darwin.tar.gz"
-      sha256 "a2659c07408070cf6c6c78e11e8789bad14b6cf67a8daef3c2c1139c236a8afb"
+      sha256 "e4e8b1d9a273a8d1e393714ae3775fee428016e72ced1e697f028cf361f94f4d"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/nuetzliches/croniq/releases/download/v#{version}/croniq-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a817e83fced258bca917e19098997618653dad0474c9f93369cab1f30a0890c7"
+      sha256 "295f5ab18ac8a3ad3c951c8de7db38ce24f1a857314c7aad16fa9d8abbd2a211"
     end
     on_intel do
       url "https://github.com/nuetzliches/croniq/releases/download/v#{version}/croniq-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1e08a04aa359ddb5d2ab523912167bd86321338b9afee3ef939f2161fc976661"
+      sha256 "e17d2e645e5daab08ad3c5032044d92853f401bf6be15042e622650b71bb2573"
     end
   end
 
