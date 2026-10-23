@@ -21,5 +21,6 @@ brew install composit
 |---------|-------------|
 | [`composit`](Formula/composit.rb) | Governance-as-Code for AI-generated infrastructure |
 | [`croniq`](Formula/croniq.rb) | Distributed job scheduler with cron, calendar, and runner support |
+| [`devstack`](Formula/devstack.rb) | Local development orchestrator for a whole stack, its worktrees and containers (macOS in preview) |
 
 Formulae are updated automatically by each project's release workflow.
