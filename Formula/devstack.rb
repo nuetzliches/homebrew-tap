@@ -10,28 +10,28 @@
 class Devstack < Formula
   desc "Local development orchestrator for a whole stack, its worktrees and containers"
   homepage "https://github.com/nuetzliches/devstack"
-  version "0.28.0"
+  version "0.29.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/nuetzliches/devstack/releases/download/v0.28.0/devstack-aarch64-apple-darwin.tar.gz"
-      sha256 "e8aab16c3ebb87e829991adc9cea76e1c70cb0ca97d7c70ccab720bc9c56f2e2"
+      url "https://github.com/nuetzliches/devstack/releases/download/v0.29.0/devstack-aarch64-apple-darwin.tar.gz"
+      sha256 "53d63baedee84d2e7538434580b71fc55a45d419d28d7e0407094f100462fd3b"
     end
     on_intel do
-      url "https://github.com/nuetzliches/devstack/releases/download/v0.28.0/devstack-x86_64-apple-darwin.tar.gz"
-      sha256 "9a3359612bbf34687941a5e78c7a7b57d3b8da374aa6b6e0247b9881f247bcf9"
+      url "https://github.com/nuetzliches/devstack/releases/download/v0.29.0/devstack-x86_64-apple-darwin.tar.gz"
+      sha256 "d9b9987ceed997d98cfd7b53f09c5e1c4407beefc852410b7cf4c25d3ff8720b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nuetzliches/devstack/releases/download/v0.28.0/devstack-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "4c0a08d8b39b50f867e622c7c96ba0e0d72c36f8fd7ad19dd4b43c478cab8978"
+      url "https://github.com/nuetzliches/devstack/releases/download/v0.29.0/devstack-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "61932358118fa7c28156ff28d475fb22a5a4bf4f94af34d1a5bf0ef6d3878e38"
     end
     on_intel do
-      url "https://github.com/nuetzliches/devstack/releases/download/v0.28.0/devstack-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "10bd7aa44af08264cc57fe7b5ca07940c789bef2b85a278ff607c9abe6d817bd"
+      url "https://github.com/nuetzliches/devstack/releases/download/v0.29.0/devstack-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "1d78ae674198379cce20371ed0d9d53c33aa8cc99490d893a9f7540d4c8ff49a"
     end
   end
 
